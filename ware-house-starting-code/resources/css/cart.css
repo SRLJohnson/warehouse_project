@@ -14,7 +14,7 @@
   grid-column-gap: 3rem;
   border: 1px solid hsla(0, 0%, 85%, 1);
   padding: 0rem 1rem 0rem 0rem;
-  background-color: hsla(0, 100%, 100%, 1);
+  background-color: hsla(0, 0%, 100%, 1);
 }
 
 .row {

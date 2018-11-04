@@ -14,8 +14,8 @@
 .hero h2 {
   padding-top: 10rem;
   color: hsla(0, 100%, 100%, 1);
-  font-family: Helvetica;
-  font-size: inherit;
+  font-family: 'Playfair Display', Serif;
+  font-size: 48px;
   font-weight: bold;
   text-align: center;
 }

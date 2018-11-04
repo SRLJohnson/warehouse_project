@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Arial-MT' ;
+  font-family: 'Roboto', 'Arial-MT', sans-serif ;
   src: url('../fonts/ari.ttf') format('truetype');
 }
 
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Arial-MT', sans-serif;
+  font-family: 'Roboto', 'Arial-MT', sans-serif;
   color: hsla(0, 0%, 29%, 1);
 }
 
@@ -27,8 +27,10 @@ h1,
 h2,
 h3,
 h4 {
-
+ font-weight: bold;
 }
+
+
 
 input,
 textarea,
@@ -42,9 +44,9 @@ select {
 
 .button {
   border-radius: 30px;
-  background-color: hsla(0, 0%, 13%, 1);
+  background-color: #AFC978;
   text-align: center;
-  color: hsla(0, 0%, 93%, 1);
+  color: #ffffff;
   transition: .25s;
 }
 
@@ -184,7 +186,7 @@ header {
   align-items: center;
   padding: .75rem 5rem;
   font-size: inherit;
-  background-color: hsla(0, 0%, 93%, 1);
+  background-color: #EFEFEF;
 }
 
 .search-bar {
@@ -228,9 +230,13 @@ nav {
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
   grid-area: nav;
-  background-color: hsla(0, 0%, 93%, 1);
+  background-color: #EFEFEF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 200px;
+  padding-left: 200px;
   border-top: 1px solid hsla(0, 0%, 85%, 1);
-  padding: 1.313rem 24.25rem 1.313rem 25rem;
+  color: #707070;
 }
 
 nav a:visted {
@@ -261,7 +267,7 @@ nav a:visted {
   display: grid;
   justify-items: center;
   text-align: center;
-  background-color: hsla(0, 0%, 98%, 1);
+  background-color: #F9F8F8;
   border-top: 1px solid hsla(0, 0%, 98%, 1);
 }
 
@@ -283,7 +289,8 @@ footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 1.5rem;
-  background-color: hsla(0, 100%, 100%, 1);
+  background-color: #EFEFEF;
+  line-height: 1.51rem;
 }
 
 footer img {
@@ -296,7 +303,7 @@ footer .links {
 }
 
 footer a {
-  color: hsla(0, 0%, 29%, 1);
+  color: #5A5A5A;
 }
 
 @media only screen and (max-width: 810px) {
