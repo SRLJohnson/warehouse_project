@@ -1,21 +1,21 @@
 /* About Page */
 
 .about h1 {
-  width: 100%;
+  width: 95%;
   padding: 10.5rem 0;
   background-image: url('../img/hero.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  font-size: inherit;
-  font-stretch: condensed;
   color: hsla(0, 100%, 100%, 1);
-
+  margin-top: 3rem;
+  border-radius: 25px;
+  font-size: 42px;
 }
 
 .about .information {
   padding: 3.75rem 20% 6.75rem 20%;
-  color: hsla(0, 0%, 29%, 1);
+  color: #7D7D7D;
 }
 
 .about h3 {

@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: 'Roboto', 'Arial-MT', sans-serif;
-  color: hsla(0, 0%, 29%, 1);
+  color: #7D7D7D;
 }
 
 a {
@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: hsla(0, 0%, 29%, 1);
+  color: #AFC978;
 }
 
 h1,
@@ -29,8 +29,6 @@ h3,
 h4 {
  font-weight: bold;
 }
-
-
 
 input,
 textarea,
@@ -84,6 +82,7 @@ select {
   border-radius: 2px;
   background-color: hsla(0, 0%, 100%, 1);
   border: solid 1px hsla(0, 0%, 91%, 1);
+  margin: .5rem;
 }
 
 .product-category .description-category {
@@ -100,6 +99,7 @@ select {
   border-radius: 2px;
   background-color: hsla(0, 0%, 100%, 1);
   border: solid 1px hsla(0, 0%, 91%, 1);
+  margin: .5rem;
 }
 
 .product-item .description {
@@ -110,13 +110,13 @@ select {
 
 .product-item h3 {
   margin-bottom: .75rem;
-  color: hsla(0, 0%, 29%, 1);
+  color: #7D7D7D;
   position: relative;
   display: block;
 }
 
 .product-item .price {
-  color: hsla(0, 0%, 29%, 1);
+  color: #7D7D7D;
 }
 
 
@@ -193,6 +193,7 @@ header {
   display: flex;
   border-radius: 33px 53px 33pzx 53px;
   width: 100%;
+  margin: 1.5rem;
 }
 
 .search-bar input {
@@ -235,7 +236,7 @@ nav {
   padding-bottom: 20px;
   padding-right: 200px;
   padding-left: 200px;
-  border-top: 1px solid hsla(0, 0%, 85%, 1);
+  border-top: 4px solid #F9F8F8;
   color: #707070;
 }
 
@@ -273,7 +274,6 @@ nav a:visted {
 
 #main h2 {
   margin-bottom: 2rem;
-  font-size: inherit;
 }
 
 #main .button {

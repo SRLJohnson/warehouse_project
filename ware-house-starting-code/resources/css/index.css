@@ -1,7 +1,7 @@
 .hero {
-  width: 100%;
+  width: 94%;
   height: 21.75rem;
-  margin-top: 3rem;
+  margin: 3rem 3rem 0 3rem;
   border-radius: 1.5rem;
   background-image: url('../img/home/hero.png');
   background-repeat: no-repeat;
