@@ -14,10 +14,12 @@
 .hero h2 {
   padding-top: 10rem;
   color: hsla(0, 100%, 100%, 1);
-  font-family: 'Playfair Display', Serif;
-  font-size: 48px;
-  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 35px;
   text-align: center;
+  margin-top: 0 !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .products {

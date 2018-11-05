@@ -10,7 +10,9 @@
   color: hsla(0, 100%, 100%, 1);
   margin-top: 3rem;
   border-radius: 25px;
-  font-size: 42px;
+  font-size: 35px;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
 }
 
 .about .information {
