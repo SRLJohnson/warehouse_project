@@ -181,17 +181,24 @@ ul.breadcrumb li a {
 /* Header */
 
 header {
-  grid-area: 'header';
+  grid-area: header;
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 30% 40% 30%;
+  grid-column-gap: 20px;
+  padding: .2rem 0;
   align-items: center;
-  padding: .2rem 5rem;
-  font-size: inherit;
+  width: 100%;
   background-color: #EFEFEF;
   height: 100px;
   position: fixed;
-  width: 100%;
   z-index: 2;
+}
+
+.logo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: 5rem;
 }
 
 .search-bar {
@@ -199,6 +206,8 @@ header {
   border-radius: 33px 53px 33px 53px;
   width: 100%;
   margin: 1.5rem;
+  justify-self: center;
+  grid-column: 2 / 3;
 }
 
 .search-bar input {
@@ -220,11 +229,13 @@ header {
 }
 
 .cart {
-  justify-self: end;
+  justify-self: center;
   display: flex;
   align-items: center;
   padding: .875rem 1rem;
   border-radius: 54px;
+  grid-column: 3 / 4;
+  margin-right: 5rem;
 }
 
 .cart img {
