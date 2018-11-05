@@ -180,18 +180,22 @@ ul.breadcrumb li a {
 /* Header */
 
 header {
-  grid-area: header;
+  grid-area: 'header';
   display: grid;
-  grid-template-columns: 22rem 1fr 22rem;
+  grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
-  padding: .75rem 5rem;
+  padding: .2rem 5rem;
   font-size: inherit;
   background-color: #EFEFEF;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
 .search-bar {
   display: flex;
-  border-radius: 33px 53px 33pzx 53px;
+  border-radius: 33px 53px 33px 53px;
   width: 100%;
   margin: 1.5rem;
 }
@@ -238,6 +242,11 @@ nav {
   padding-left: 200px;
   border-top: 4px solid #F9F8F8;
   color: #707070;
+  position: fixed;
+  width: 100%;
+  top: 104px;
+  height: 18px;
+  z-index: 2;
 }
 
 nav a:visted {
@@ -246,7 +255,7 @@ nav a:visted {
 
 @media only screen and (max-width: 1100px) {
   header {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     justify-items: center;
   }
 
@@ -269,11 +278,14 @@ nav a:visted {
   justify-items: center;
   text-align: center;
   background-color: #F9F8F8;
-  border-top: 1px solid hsla(0, 0%, 98%, 1);
+  position: relative;
+  top: 160px;
+  z-index: 0;
+  margin-bottom: 100px;
 }
 
 #main h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 #main .button {
@@ -291,6 +303,7 @@ footer {
   padding: 1.5rem;
   background-color: #EFEFEF;
   line-height: 1.51rem;
+  z-index: 2;
 }
 
 footer img {
