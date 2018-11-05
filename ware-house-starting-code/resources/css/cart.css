@@ -1,7 +1,4 @@
-#main {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
+
 
 .product-list-section {
   padding: 2rem 5rem 3.75rem 5rem;
@@ -15,6 +12,7 @@
   border: 1px solid hsla(0, 0%, 85%, 1);
   padding: 0rem 1rem 0rem 0rem;
   background-color: hsla(0, 0%, 100%, 1);
+  margin-bottom: 100px;
 }
 
 .row {

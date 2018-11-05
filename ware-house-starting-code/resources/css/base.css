@@ -9,6 +9,7 @@ html {
 body {
   font-family: 'Cabin', 'Arial-MT', sans-serif;
   color: #7D7D7D;
+  letter-spacing: .5px;
 }
 
 a {
