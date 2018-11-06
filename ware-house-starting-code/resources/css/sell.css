@@ -18,6 +18,7 @@ form {
                        'description description description description'
                        '. . . submit';
   font-size: inherit;
+  grid-gap: 10px;
 }
 
 input {
@@ -28,11 +29,13 @@ input {
 select {
   background-color: hsla(0, 0%, 100%, 1);
   font-size: inherit;
+  font-family: 'Cabin', sans-serif;
 }
 
 textarea {
   min-height: 12rem;
   font-size: inherit;
+  font-family: 'Cabin', sans-serif;
 }
 
 #name {
