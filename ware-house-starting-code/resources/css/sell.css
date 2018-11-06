@@ -4,7 +4,7 @@
 }
 
 .sell {
-  padding: 3.75rem 11.75rem 18.75rem 11.75rem;
+  padding: 7rem 11.75rem 12rem 11.75rem;
 }
 
 .sell h3 {
@@ -27,9 +27,11 @@ input {
 }
 
 select {
-  background-color: hsla(0, 0%, 100%, 1);
   font-size: inherit;
   font-family: 'Cabin', sans-serif;
+  border-radius: 3px;
+  background-color: hsla(0, 0%, 89%, 1);
+  padding: 1rem;
 }
 
 textarea {
